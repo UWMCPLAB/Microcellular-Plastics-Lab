@@ -14,3 +14,7 @@
 # Metadata
 *.aliases
 *.lvlps
+
+# google drive
+*.tmp.drivedownload
+*.driveupload
