@@ -11,23 +11,31 @@
 <NumElts>1</NumElts>
 <Array>
 <Name>Active Channels</Name>
-<Dimsize>5</Dimsize>
+<Dimsize>6</Dimsize>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
 <NumLevels>3</NumLevels>
 <Class>DAQmx AI.lvclass</Class>
 <Version>1.0.0.1</Version>
-<Version>1.0.0.4</Version>
-<Version>1.0.0.1</Version>
+<Version>1.0.0.5</Version>
+<Version>1.0.0.2</Version>
 <Cluster>
+<Name>Generic Hardware.lvclass</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Owning System</Name>
+<Choice>Saturation</Choice>
+<Choice>Expansion</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Description</Name>
+<Val>Tank Chamber Pressure and Temperature</Val>
+</String>
 </Cluster>
 <Cluster>
 <Name>DAQmx.lvclass</Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Description</Name>
-<Val>Saturation Tank Chamber Pressure and Temperature</Val>
-</String>
+<NumElts>1</NumElts>
 <Refnum>
 <Name>DAQmx Task Name</Name>
 <RefKind>Generic Tag</RefKind>
@@ -43,17 +51,25 @@
 <NumLevels>3</NumLevels>
 <Class>DAQmx AO.lvclass</Class>
 <Version>1.0.0.1</Version>
-<Version>1.0.0.4</Version>
-<Version>1.0.0.1</Version>
+<Version>1.0.0.5</Version>
+<Version>1.0.0.2</Version>
 <Cluster>
+<Name>Generic Hardware.lvclass</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Owning System</Name>
+<Choice>Saturation</Choice>
+<Choice>Expansion</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Description</Name>
+<Val>Tank Valve Controls</Val>
+</String>
 </Cluster>
 <Cluster>
 <Name>DAQmx.lvclass</Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Description</Name>
-<Val>Saturation Tank Valve Controls</Val>
-</String>
+<NumElts>1</NumElts>
 <Refnum>
 <Name>DAQmx Task Name</Name>
 <RefKind>Generic Tag</RefKind>
@@ -67,27 +83,27 @@
 <Object>
 <Name>Generic Hardware.lvclass</Name>
 <NumLevels>3</NumLevels>
-<Class>DAQmx DIO.lvclass</Class>
+<Class>Simulated HW.lvclass</Class>
 <Version>1.0.0.1</Version>
-<Version>1.0.0.4</Version>
-<Version>1.0.0.1</Version>
+<Version>1.0.0.5</Version>
+<Version>1.0.0.2</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
-<NumElts>1</NumElts>
+<NumElts>2</NumElts>
 <EW>
 <Name>Owning System</Name>
 <Choice>Saturation</Choice>
 <Choice>Expansion</Choice>
 <Val>1</Val>
 </EW>
+<String>
+<Name>Description</Name>
+<Val>Motor On/Off and Direction Control</Val>
+</String>
 </Cluster>
 <Cluster>
 <Name>DAQmx.lvclass</Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Description</Name>
-<Val>Expansion Frame Motor On/Off and Direction Control</Val>
-</String>
+<NumElts>1</NumElts>
 <Refnum>
 <Name>DAQmx Task Name</Name>
 <RefKind>Generic Tag</RefKind>
@@ -101,27 +117,27 @@
 <Object>
 <Name>Generic Hardware.lvclass</Name>
 <NumLevels>3</NumLevels>
-<Class>DAQmx DIO.lvclass</Class>
+<Class>Simulated HW.lvclass</Class>
 <Version>1.0.0.1</Version>
-<Version>1.0.0.4</Version>
-<Version>1.0.0.1</Version>
+<Version>1.0.0.5</Version>
+<Version>1.0.0.2</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
-<NumElts>1</NumElts>
+<NumElts>2</NumElts>
 <EW>
 <Name>Owning System</Name>
 <Choice>Saturation</Choice>
 <Choice>Expansion</Choice>
 <Val>1</Val>
 </EW>
+<String>
+<Name>Description</Name>
+<Val>Limit Switches</Val>
+</String>
 </Cluster>
 <Cluster>
 <Name>DAQmx.lvclass</Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Description</Name>
-<Val>Expansion Frame Limit Switches</Val>
-</String>
+<NumElts>1</NumElts>
 <Refnum>
 <Name>DAQmx Task Name</Name>
 <RefKind>Generic Tag</RefKind>
@@ -135,32 +151,66 @@
 <Object>
 <Name>Generic Hardware.lvclass</Name>
 <NumLevels>3</NumLevels>
-<Class>DAQmx AI.lvclass</Class>
+<Class>Simulated HW.lvclass</Class>
 <Version>1.0.0.1</Version>
-<Version>1.0.0.4</Version>
-<Version>1.0.0.1</Version>
+<Version>1.0.0.5</Version>
+<Version>1.0.0.2</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
-<NumElts>1</NumElts>
+<NumElts>2</NumElts>
 <EW>
 <Name>Owning System</Name>
 <Choice>Saturation</Choice>
 <Choice>Expansion</Choice>
 <Val>1</Val>
 </EW>
+<String>
+<Name>Description</Name>
+<Val>IR Temperature</Val>
+</String>
 </Cluster>
 <Cluster>
 <Name>DAQmx.lvclass</Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Description</Name>
-<Val>Expansion Frame IR Temperature</Val>
-</String>
+<NumElts>1</NumElts>
 <Refnum>
 <Name>DAQmx Task Name</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
 <Val>IRTemp</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+</Cluster>
+</Object>
+<Object>
+<Name>Generic Hardware.lvclass</Name>
+<NumLevels>3</NumLevels>
+<Class>Simulated HW.lvclass</Class>
+<Version>1.0.0.1</Version>
+<Version>1.0.0.5</Version>
+<Version>1.0.0.2</Version>
+<Cluster>
+<Name>Generic Hardware.lvclass</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Owning System</Name>
+<Choice>Saturation</Choice>
+<Choice>Expansion</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>Description</Name>
+<Val>Pneumatic Cylinder Actuation</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>DAQmx.lvclass</Name>
+<NumElts>1</NumElts>
+<Refnum>
+<Name>DAQmx Task Name</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val>PneumAct</Val>
 </Refnum>
 </Cluster>
 <Cluster>
