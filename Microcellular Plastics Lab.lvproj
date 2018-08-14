@@ -43,6 +43,9 @@
 			<Item Name="Get all Queue References.vi" Type="VI" URL="../QSM/Get all Queue References.vi"/>
 			<Item Name="Get all Queue Statuses.vi" Type="VI" URL="../QSM/Get all Queue Statuses.vi"/>
 		</Item>
+		<Item Name="Settings" Type="Folder" URL="../Settings">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Load Last Config.vi" Type="VI" URL="../SubVIs/Load Last Config.vi"/>
 		</Item>
@@ -57,7 +60,6 @@
 		<Item Name="Main UI.vi" Type="VI" URL="../Main UI.vi"/>
 		<Item Name="Main.ini" Type="Document" URL="../Main.ini"/>
 		<Item Name="Process Settings.lvclass" Type="LVClass" URL="../Process Settings/Process Settings.lvclass"/>
-		<Item Name="Simulated HW Control Panel.vi" Type="VI" URL="../Hardware Settings/Hardware Types/Simulated/Simulated HW Control Panel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Center Pane.vi" Type="VI" URL="/&lt;userlib&gt;/Center Pane.vi"/>
@@ -66,6 +68,7 @@
 				<Item Name="Custom Error Popup.vi" Type="VI" URL="/&lt;userlib&gt;/Custom Error Popup.vi"/>
 				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="Inline Wait.vi" Type="VI" URL="/&lt;userlib&gt;/Inline Wait.vi"/>
+				<Item Name="plusminus.vi" Type="VI" URL="/&lt;userlib&gt;/plusminus.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
