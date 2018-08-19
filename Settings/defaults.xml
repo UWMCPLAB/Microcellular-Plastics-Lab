@@ -2,6 +2,14 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>17.0</Version>
 <Object>
+<Name>Process Settings.lvclass</Name>
+<NumLevels>1</NumLevels>
+<Class>Process Settings.lvclass</Class>
+<Version>1.0.0.4</Version>
+<Cluster>
+<Name>Process Settings.lvclass</Name>
+<NumElts>3</NumElts>
+<Object>
 <Name>Hardware Settings.lvclass</Name>
 <NumLevels>1</NumLevels>
 <Class>Hardware Settings.lvclass</Class>
@@ -11,7 +19,7 @@
 <NumElts>1</NumElts>
 <Array>
 <Name>Active Channels</Name>
-<Dimsize>6</Dimsize>
+<Dimsize>7</Dimsize>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
 <NumLevels>3</NumLevels>
@@ -82,10 +90,9 @@
 </Object>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
-<NumLevels>3</NumLevels>
+<NumLevels>2</NumLevels>
 <Class>Simulated HW.lvclass</Class>
-<Version>1.0.0.1</Version>
-<Version>1.0.0.5</Version>
+<Version>1.0.0.2</Version>
 <Version>1.0.0.2</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
@@ -102,24 +109,13 @@
 </String>
 </Cluster>
 <Cluster>
-<Name>DAQmx.lvclass</Name>
-<NumElts>1</NumElts>
-<Refnum>
-<Name>DAQmx Task Name</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>MotorOn_Off</Val>
-</Refnum>
-</Cluster>
-<Cluster>
 </Cluster>
 </Object>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
-<NumLevels>3</NumLevels>
+<NumLevels>2</NumLevels>
 <Class>Simulated HW.lvclass</Class>
-<Version>1.0.0.1</Version>
-<Version>1.0.0.5</Version>
+<Version>1.0.0.2</Version>
 <Version>1.0.0.2</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
@@ -136,24 +132,13 @@
 </String>
 </Cluster>
 <Cluster>
-<Name>DAQmx.lvclass</Name>
-<NumElts>1</NumElts>
-<Refnum>
-<Name>DAQmx Task Name</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>Limit Switches</Val>
-</Refnum>
-</Cluster>
-<Cluster>
 </Cluster>
 </Object>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
-<NumLevels>3</NumLevels>
+<NumLevels>2</NumLevels>
 <Class>Simulated HW.lvclass</Class>
-<Version>1.0.0.1</Version>
-<Version>1.0.0.5</Version>
+<Version>1.0.0.2</Version>
 <Version>1.0.0.2</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
@@ -170,24 +155,13 @@
 </String>
 </Cluster>
 <Cluster>
-<Name>DAQmx.lvclass</Name>
-<NumElts>1</NumElts>
-<Refnum>
-<Name>DAQmx Task Name</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>IRTemp</Val>
-</Refnum>
-</Cluster>
-<Cluster>
 </Cluster>
 </Object>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
-<NumLevels>3</NumLevels>
+<NumLevels>2</NumLevels>
 <Class>Simulated HW.lvclass</Class>
-<Version>1.0.0.1</Version>
-<Version>1.0.0.5</Version>
+<Version>1.0.0.2</Version>
 <Version>1.0.0.2</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
@@ -204,19 +178,177 @@
 </String>
 </Cluster>
 <Cluster>
-<Name>DAQmx.lvclass</Name>
-<NumElts>1</NumElts>
-<Refnum>
-<Name>DAQmx Task Name</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>PneumAct</Val>
-</Refnum>
+</Cluster>
+</Object>
+<Object>
+<Name>Generic Hardware.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>Simulated HW.lvclass</Class>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.2</Version>
+<Cluster>
+<Name>Generic Hardware.lvclass</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Owning System</Name>
+<Choice>Saturation</Choice>
+<Choice>Expansion</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>Description</Name>
+<Val>Expansion Temperature Setpoint</Val>
+</String>
 </Cluster>
 <Cluster>
 </Cluster>
 </Object>
 </Array>
+</Cluster>
+</Object>
+<Array>
+<Name>Process Step Configs</Name>
+<Dimsize>4</Dimsize>
+<Cluster>
+<Name>System Cluster</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Item</Name>
+<Choice></Choice>
+<Choice>sheet temperature setpoint</Choice>
+<Choice>sheet heating time</Choice>
+<Choice>chamber pressure</Choice>
+<Choice>saturation time</Choice>
+<Val>1</Val>
+</EW>
+<DBL>
+<Name>Value</Name>
+<Val>120.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Units</Name>
+<Choice>°F</Choice>
+<Choice>°C</Choice>
+<Choice>Seconds</Choice>
+<Choice>Minutes</Choice>
+<Choice>PSIA</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>System Cluster</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Item</Name>
+<Choice></Choice>
+<Choice>sheet temperature setpoint</Choice>
+<Choice>sheet heating time</Choice>
+<Choice>chamber pressure</Choice>
+<Choice>saturation time</Choice>
+<Val>2</Val>
+</EW>
+<DBL>
+<Name>Value</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Units</Name>
+<Choice>°F</Choice>
+<Choice>°C</Choice>
+<Choice>Seconds</Choice>
+<Choice>Minutes</Choice>
+<Choice>PSIA</Choice>
+<Val>3</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>System Cluster</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Item</Name>
+<Choice></Choice>
+<Choice>sheet temperature setpoint</Choice>
+<Choice>sheet heating time</Choice>
+<Choice>chamber pressure</Choice>
+<Choice>saturation time</Choice>
+<Val>3</Val>
+</EW>
+<DBL>
+<Name>Value</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Units</Name>
+<Choice>°F</Choice>
+<Choice>°C</Choice>
+<Choice>Seconds</Choice>
+<Choice>Minutes</Choice>
+<Choice>PSIA</Choice>
+<Val>4</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>System Cluster</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Item</Name>
+<Choice></Choice>
+<Choice>sheet temperature setpoint</Choice>
+<Choice>sheet heating time</Choice>
+<Choice>chamber pressure</Choice>
+<Choice>saturation time</Choice>
+<Val>4</Val>
+</EW>
+<DBL>
+<Name>Value</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Units</Name>
+<Choice>°F</Choice>
+<Choice>°C</Choice>
+<Choice>Seconds</Choice>
+<Choice>Minutes</Choice>
+<Choice>PSIA</Choice>
+<Val>3</Val>
+</EW>
+</Cluster>
+</Array>
+<Cluster>
+<Name>File Info</Name>
+<NumElts>3</NumElts>
+<Path>
+<Name>Filename</Name>
+<Val>C:\Microcellular Plastics Lab\Settings\defaults.xml</Val>
+</Path>
+<String>
+<Name>Author</Name>
+<Val>Paige Thielen</Val>
+</String>
+<Timestamp>
+<Name>Time Stamp</Name>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>-639973376</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>-677468908</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+</Timestamp>
+</Cluster>
 </Cluster>
 </Object>
 </LVData>
