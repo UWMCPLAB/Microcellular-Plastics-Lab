@@ -5,7 +5,7 @@
 <Name>Process Settings.lvclass</Name>
 <NumLevels>1</NumLevels>
 <Class>Process Settings.lvclass</Class>
-<Version>1.0.0.4</Version>
+<Version>1.0.0.5</Version>
 <Cluster>
 <Name>Process Settings.lvclass</Name>
 <NumElts>3</NumElts>
@@ -26,20 +26,8 @@
 <Class>DAQmx AI.lvclass</Class>
 <Version>1.0.0.1</Version>
 <Version>1.0.0.5</Version>
-<Version>1.0.0.2</Version>
+<Version>1.0.0.3</Version>
 <Cluster>
-<Name>Generic Hardware.lvclass</Name>
-<NumElts>2</NumElts>
-<EW>
-<Name>Owning System</Name>
-<Choice>Saturation</Choice>
-<Choice>Expansion</Choice>
-<Val>0</Val>
-</EW>
-<String>
-<Name>Description</Name>
-<Val>Tank Chamber Pressure and Temperature</Val>
-</String>
 </Cluster>
 <Cluster>
 <Name>DAQmx.lvclass</Name>
@@ -60,7 +48,7 @@
 <Class>DAQmx AO.lvclass</Class>
 <Version>1.0.0.1</Version>
 <Version>1.0.0.5</Version>
-<Version>1.0.0.2</Version>
+<Version>1.0.0.3</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
 <NumElts>2</NumElts>
@@ -70,10 +58,17 @@
 <Choice>Expansion</Choice>
 <Val>0</Val>
 </EW>
-<String>
+<EW>
 <Name>Description</Name>
-<Val>Tank Valve Controls</Val>
-</String>
+<Choice>Tank Chamber Pressure and Temperature</Choice>
+<Choice>Tank Valve Controls</Choice>
+<Choice>Motor On/Off and Direction Control</Choice>
+<Choice>Limit Switches</Choice>
+<Choice>IR Temperature</Choice>
+<Choice>Pneumatic Cylinder Actuation</Choice>
+<Choice>Expansion Temperature Setpoint</Choice>
+<Val>1</Val>
+</EW>
 </Cluster>
 <Cluster>
 <Name>DAQmx.lvclass</Name>
@@ -93,7 +88,7 @@
 <NumLevels>2</NumLevels>
 <Class>Simulated HW.lvclass</Class>
 <Version>1.0.0.2</Version>
-<Version>1.0.0.2</Version>
+<Version>1.0.0.3</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
 <NumElts>2</NumElts>
@@ -103,10 +98,17 @@
 <Choice>Expansion</Choice>
 <Val>1</Val>
 </EW>
-<String>
+<EW>
 <Name>Description</Name>
-<Val>Motor On/Off and Direction Control</Val>
-</String>
+<Choice>Tank Chamber Pressure and Temperature</Choice>
+<Choice>Tank Valve Controls</Choice>
+<Choice>Motor On/Off and Direction Control</Choice>
+<Choice>Limit Switches</Choice>
+<Choice>IR Temperature</Choice>
+<Choice>Pneumatic Cylinder Actuation</Choice>
+<Choice>Expansion Temperature Setpoint</Choice>
+<Val>2</Val>
+</EW>
 </Cluster>
 <Cluster>
 </Cluster>
@@ -116,7 +118,7 @@
 <NumLevels>2</NumLevels>
 <Class>Simulated HW.lvclass</Class>
 <Version>1.0.0.2</Version>
-<Version>1.0.0.2</Version>
+<Version>1.0.0.3</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
 <NumElts>2</NumElts>
@@ -126,10 +128,17 @@
 <Choice>Expansion</Choice>
 <Val>1</Val>
 </EW>
-<String>
+<EW>
 <Name>Description</Name>
-<Val>Limit Switches</Val>
-</String>
+<Choice>Tank Chamber Pressure and Temperature</Choice>
+<Choice>Tank Valve Controls</Choice>
+<Choice>Motor On/Off and Direction Control</Choice>
+<Choice>Limit Switches</Choice>
+<Choice>IR Temperature</Choice>
+<Choice>Pneumatic Cylinder Actuation</Choice>
+<Choice>Expansion Temperature Setpoint</Choice>
+<Val>3</Val>
+</EW>
 </Cluster>
 <Cluster>
 </Cluster>
@@ -139,7 +148,7 @@
 <NumLevels>2</NumLevels>
 <Class>Simulated HW.lvclass</Class>
 <Version>1.0.0.2</Version>
-<Version>1.0.0.2</Version>
+<Version>1.0.0.3</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
 <NumElts>2</NumElts>
@@ -149,10 +158,17 @@
 <Choice>Expansion</Choice>
 <Val>1</Val>
 </EW>
-<String>
+<EW>
 <Name>Description</Name>
-<Val>IR Temperature</Val>
-</String>
+<Choice>Tank Chamber Pressure and Temperature</Choice>
+<Choice>Tank Valve Controls</Choice>
+<Choice>Motor On/Off and Direction Control</Choice>
+<Choice>Limit Switches</Choice>
+<Choice>IR Temperature</Choice>
+<Choice>Pneumatic Cylinder Actuation</Choice>
+<Choice>Expansion Temperature Setpoint</Choice>
+<Val>4</Val>
+</EW>
 </Cluster>
 <Cluster>
 </Cluster>
@@ -162,7 +178,7 @@
 <NumLevels>2</NumLevels>
 <Class>Simulated HW.lvclass</Class>
 <Version>1.0.0.2</Version>
-<Version>1.0.0.2</Version>
+<Version>1.0.0.3</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
 <NumElts>2</NumElts>
@@ -172,10 +188,17 @@
 <Choice>Expansion</Choice>
 <Val>1</Val>
 </EW>
-<String>
+<EW>
 <Name>Description</Name>
-<Val>Pneumatic Cylinder Actuation</Val>
-</String>
+<Choice>Tank Chamber Pressure and Temperature</Choice>
+<Choice>Tank Valve Controls</Choice>
+<Choice>Motor On/Off and Direction Control</Choice>
+<Choice>Limit Switches</Choice>
+<Choice>IR Temperature</Choice>
+<Choice>Pneumatic Cylinder Actuation</Choice>
+<Choice>Expansion Temperature Setpoint</Choice>
+<Val>5</Val>
+</EW>
 </Cluster>
 <Cluster>
 </Cluster>
@@ -185,7 +208,7 @@
 <NumLevels>2</NumLevels>
 <Class>Simulated HW.lvclass</Class>
 <Version>1.0.0.2</Version>
-<Version>1.0.0.2</Version>
+<Version>1.0.0.3</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
 <NumElts>2</NumElts>
@@ -195,10 +218,17 @@
 <Choice>Expansion</Choice>
 <Val>1</Val>
 </EW>
-<String>
+<EW>
 <Name>Description</Name>
-<Val>Expansion Temperature Setpoint</Val>
-</String>
+<Choice>Tank Chamber Pressure and Temperature</Choice>
+<Choice>Tank Valve Controls</Choice>
+<Choice>Motor On/Off and Direction Control</Choice>
+<Choice>Limit Switches</Choice>
+<Choice>IR Temperature</Choice>
+<Choice>Pneumatic Cylinder Actuation</Choice>
+<Choice>Expansion Temperature Setpoint</Choice>
+<Val>6</Val>
+</EW>
 </Cluster>
 <Cluster>
 </Cluster>
@@ -208,7 +238,7 @@
 </Object>
 <Array>
 <Name>Process Step Configs</Name>
-<Dimsize>4</Dimsize>
+<Dimsize>5</Dimsize>
 <Cluster>
 <Name>System Cluster</Name>
 <NumElts>3</NumElts>
@@ -217,13 +247,14 @@
 <Choice></Choice>
 <Choice>sheet temperature setpoint</Choice>
 <Choice>sheet heating time</Choice>
+<Choice>temp element setpoint</Choice>
 <Choice>chamber pressure</Choice>
 <Choice>saturation time</Choice>
 <Val>1</Val>
 </EW>
 <DBL>
 <Name>Value</Name>
-<Val>100.00000000000000</Val>
+<Val>120.00000000000000</Val>
 </DBL>
 <EW>
 <Name>Units</Name>
@@ -243,13 +274,14 @@
 <Choice></Choice>
 <Choice>sheet temperature setpoint</Choice>
 <Choice>sheet heating time</Choice>
+<Choice>temp element setpoint</Choice>
 <Choice>chamber pressure</Choice>
 <Choice>saturation time</Choice>
 <Val>2</Val>
 </EW>
 <DBL>
 <Name>Value</Name>
-<Val>2.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <EW>
 <Name>Units</Name>
@@ -269,9 +301,37 @@
 <Choice></Choice>
 <Choice>sheet temperature setpoint</Choice>
 <Choice>sheet heating time</Choice>
+<Choice>temp element setpoint</Choice>
 <Choice>chamber pressure</Choice>
 <Choice>saturation time</Choice>
 <Val>3</Val>
+</EW>
+<DBL>
+<Name>Value</Name>
+<Val>300.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Units</Name>
+<Choice>°F</Choice>
+<Choice>°C</Choice>
+<Choice>Seconds</Choice>
+<Choice>Minutes</Choice>
+<Choice>PSIA</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>System Cluster</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Item</Name>
+<Choice></Choice>
+<Choice>sheet temperature setpoint</Choice>
+<Choice>sheet heating time</Choice>
+<Choice>temp element setpoint</Choice>
+<Choice>chamber pressure</Choice>
+<Choice>saturation time</Choice>
+<Val>4</Val>
 </EW>
 <DBL>
 <Name>Value</Name>
@@ -295,13 +355,14 @@
 <Choice></Choice>
 <Choice>sheet temperature setpoint</Choice>
 <Choice>sheet heating time</Choice>
+<Choice>temp element setpoint</Choice>
 <Choice>chamber pressure</Choice>
 <Choice>saturation time</Choice>
-<Val>4</Val>
+<Val>5</Val>
 </EW>
 <DBL>
 <Name>Value</Name>
-<Val>10.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <EW>
 <Name>Units</Name>
@@ -319,11 +380,11 @@
 <NumElts>3</NumElts>
 <Path>
 <Name>Filename</Name>
-<Val>C:\Microcellular Plastics Lab\Settings\1.xml</Val>
+<Val>C:\Microcellular Plastics Lab\Settings\defaults.xml</Val>
 </Path>
 <String>
 <Name>Author</Name>
-<Val>pt</Val>
+<Val>Paige Thielen</Val>
 </String>
 <Timestamp>
 <Name>Time Stamp</Name>
@@ -336,11 +397,11 @@
 </I32>
 <I32>
 <Name></Name>
-<Val>-500490240</Val>
+<Val>-1288349696</Val>
 </I32>
 <I32>
 <Name></Name>
-<Val>-677467174</Val>
+<Val>-677457631</Val>
 </I32>
 <I32>
 <Name></Name>
