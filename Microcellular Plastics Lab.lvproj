@@ -40,8 +40,6 @@
 			<Item Name="Saturation" Type="Folder">
 				<Item Name="Saturation.lvclass" Type="LVClass" URL="../QSM/Saturation/Saturation.lvclass"/>
 			</Item>
-			<Item Name="Get all Queue References.vi" Type="VI" URL="../QSM/Get all Queue References.vi"/>
-			<Item Name="Get all Queue Statuses.vi" Type="VI" URL="../QSM/Get all Queue Statuses.vi"/>
 		</Item>
 		<Item Name="Settings" Type="Folder" URL="../Settings">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -50,10 +48,13 @@
 			<Item Name="Center Pane.vi" Type="VI" URL="../SubVIs/Center Pane.vi"/>
 			<Item Name="Conditional Quit LabVIEW.vi" Type="VI" URL="../SubVIs/Conditional Quit LabVIEW.vi"/>
 			<Item Name="Custom Error Popup.vi" Type="VI" URL="../SubVIs/Custom Error Popup.vi"/>
+			<Item Name="Get all Queue References.vi" Type="VI" URL="../QSM/Get all Queue References.vi"/>
+			<Item Name="Get all Queue Statuses.vi" Type="VI" URL="../QSM/Get all Queue Statuses.vi"/>
 			<Item Name="Inline Wait.vi" Type="VI" URL="../SubVIs/Inline Wait.vi"/>
 			<Item Name="Load Last Config.vi" Type="VI" URL="../SubVIs/Load Last Config.vi"/>
 			<Item Name="plusminus.vi" Type="VI" URL="../SubVIs/plusminus.vi"/>
-			<Item Name="Time Delay FGV.vi" Type="VI" URL="../SubVIs/Time Delay FGV.vi"/>
+			<Item Name="plusminuspoly.vi" Type="VI" URL="../SubVIs/plusminuspoly.vi"/>
+			<Item Name="plusminusU8.vi" Type="VI" URL="../SubVIs/plusminusU8.vi"/>
 			<Item Name="Update ini.vi" Type="VI" URL="../SubVIs/Update ini.vi"/>
 		</Item>
 		<Item Name="Type Defs" Type="Folder">

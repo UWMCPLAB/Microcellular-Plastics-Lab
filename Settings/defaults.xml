@@ -5,7 +5,7 @@
 <Name>Process Settings.lvclass</Name>
 <NumLevels>1</NumLevels>
 <Class>Process Settings.lvclass</Class>
-<Version>1.0.0.5</Version>
+<Version>1.0.0.7</Version>
 <Cluster>
 <Name>Process Settings.lvclass</Name>
 <NumElts>3</NumElts>
@@ -22,32 +22,20 @@
 <Dimsize>7</Dimsize>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
-<NumLevels>3</NumLevels>
-<Class>DAQmx AI.lvclass</Class>
-<Version>1.0.0.1</Version>
-<Version>1.0.0.5</Version>
+<NumLevels>2</NumLevels>
+<Class>Simulated HW.lvclass</Class>
+<Version>1.0.0.2</Version>
 <Version>1.0.0.3</Version>
 <Cluster>
-</Cluster>
-<Cluster>
-<Name>DAQmx.lvclass</Name>
-<NumElts>1</NumElts>
-<Refnum>
-<Name>DAQmx Task Name</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>SatTankTemp</Val>
-</Refnum>
 </Cluster>
 <Cluster>
 </Cluster>
 </Object>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
-<NumLevels>3</NumLevels>
-<Class>DAQmx AO.lvclass</Class>
-<Version>1.0.0.1</Version>
-<Version>1.0.0.5</Version>
+<NumLevels>2</NumLevels>
+<Class>Simulated HW.lvclass</Class>
+<Version>1.0.0.2</Version>
 <Version>1.0.0.3</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
@@ -69,16 +57,6 @@
 <Choice>Expansion Temperature Setpoint</Choice>
 <Val>1</Val>
 </EW>
-</Cluster>
-<Cluster>
-<Name>DAQmx.lvclass</Name>
-<NumElts>1</NumElts>
-<Refnum>
-<Name>DAQmx Task Name</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>SatValveCtl</Val>
-</Refnum>
 </Cluster>
 <Cluster>
 </Cluster>
@@ -238,7 +216,7 @@
 </Object>
 <Array>
 <Name>Process Step Configs</Name>
-<Dimsize>5</Dimsize>
+<Dimsize>6</Dimsize>
 <Cluster>
 <Name>System Cluster</Name>
 <NumElts>3</NumElts>
@@ -248,8 +226,9 @@
 <Choice>sheet temperature setpoint</Choice>
 <Choice>sheet heating time</Choice>
 <Choice>temp element setpoint</Choice>
-<Choice>chamber pressure</Choice>
+<Choice>chamber pressure setpoint</Choice>
 <Choice>saturation time</Choice>
+<Choice>chamber pressure valve setpoint</Choice>
 <Val>1</Val>
 </EW>
 <DBL>
@@ -263,6 +242,7 @@
 <Choice>Seconds</Choice>
 <Choice>Minutes</Choice>
 <Choice>PSIA</Choice>
+<Choice>V</Choice>
 <Val>0</Val>
 </EW>
 </Cluster>
@@ -275,8 +255,9 @@
 <Choice>sheet temperature setpoint</Choice>
 <Choice>sheet heating time</Choice>
 <Choice>temp element setpoint</Choice>
-<Choice>chamber pressure</Choice>
+<Choice>chamber pressure setpoint</Choice>
 <Choice>saturation time</Choice>
+<Choice>chamber pressure valve setpoint</Choice>
 <Val>2</Val>
 </EW>
 <DBL>
@@ -290,6 +271,7 @@
 <Choice>Seconds</Choice>
 <Choice>Minutes</Choice>
 <Choice>PSIA</Choice>
+<Choice>V</Choice>
 <Val>3</Val>
 </EW>
 </Cluster>
@@ -302,8 +284,9 @@
 <Choice>sheet temperature setpoint</Choice>
 <Choice>sheet heating time</Choice>
 <Choice>temp element setpoint</Choice>
-<Choice>chamber pressure</Choice>
+<Choice>chamber pressure setpoint</Choice>
 <Choice>saturation time</Choice>
+<Choice>chamber pressure valve setpoint</Choice>
 <Val>3</Val>
 </EW>
 <DBL>
@@ -317,6 +300,7 @@
 <Choice>Seconds</Choice>
 <Choice>Minutes</Choice>
 <Choice>PSIA</Choice>
+<Choice>V</Choice>
 <Val>0</Val>
 </EW>
 </Cluster>
@@ -329,8 +313,9 @@
 <Choice>sheet temperature setpoint</Choice>
 <Choice>sheet heating time</Choice>
 <Choice>temp element setpoint</Choice>
-<Choice>chamber pressure</Choice>
+<Choice>chamber pressure setpoint</Choice>
 <Choice>saturation time</Choice>
+<Choice>chamber pressure valve setpoint</Choice>
 <Val>4</Val>
 </EW>
 <DBL>
@@ -344,6 +329,7 @@
 <Choice>Seconds</Choice>
 <Choice>Minutes</Choice>
 <Choice>PSIA</Choice>
+<Choice>V</Choice>
 <Val>4</Val>
 </EW>
 </Cluster>
@@ -356,8 +342,9 @@
 <Choice>sheet temperature setpoint</Choice>
 <Choice>sheet heating time</Choice>
 <Choice>temp element setpoint</Choice>
-<Choice>chamber pressure</Choice>
+<Choice>chamber pressure setpoint</Choice>
 <Choice>saturation time</Choice>
+<Choice>chamber pressure valve setpoint</Choice>
 <Val>5</Val>
 </EW>
 <DBL>
@@ -371,7 +358,37 @@
 <Choice>Seconds</Choice>
 <Choice>Minutes</Choice>
 <Choice>PSIA</Choice>
+<Choice>V</Choice>
 <Val>3</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>System Cluster</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Item</Name>
+<Choice></Choice>
+<Choice>sheet temperature setpoint</Choice>
+<Choice>sheet heating time</Choice>
+<Choice>temp element setpoint</Choice>
+<Choice>chamber pressure setpoint</Choice>
+<Choice>saturation time</Choice>
+<Choice>chamber pressure valve setpoint</Choice>
+<Val>6</Val>
+</EW>
+<DBL>
+<Name>Value</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Units</Name>
+<Choice>°F</Choice>
+<Choice>°C</Choice>
+<Choice>Seconds</Choice>
+<Choice>Minutes</Choice>
+<Choice>PSIA</Choice>
+<Choice>V</Choice>
+<Val>5</Val>
 </EW>
 </Cluster>
 </Array>
@@ -384,7 +401,7 @@
 </Path>
 <String>
 <Name>Author</Name>
-<Val>Paige Thielen</Val>
+<Val>Default Template</Val>
 </String>
 <Timestamp>
 <Name>Time Stamp</Name>
@@ -397,11 +414,11 @@
 </I32>
 <I32>
 <Name></Name>
-<Val>-9246720</Val>
+<Val>1062303744</Val>
 </I32>
 <I32>
 <Name></Name>
-<Val>-677457643</Val>
+<Val>-677394890</Val>
 </I32>
 <I32>
 <Name></Name>
