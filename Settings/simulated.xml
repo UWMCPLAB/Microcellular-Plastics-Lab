@@ -22,32 +22,20 @@
 <Dimsize>7</Dimsize>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
-<NumLevels>3</NumLevels>
-<Class>DAQmx AI.lvclass</Class>
-<Version>1.0.0.1</Version>
-<Version>1.0.0.5</Version>
+<NumLevels>2</NumLevels>
+<Class>Simulated HW.lvclass</Class>
+<Version>1.0.0.2</Version>
 <Version>1.0.0.3</Version>
 <Cluster>
-</Cluster>
-<Cluster>
-<Name>DAQmx.lvclass</Name>
-<NumElts>1</NumElts>
-<Refnum>
-<Name>DAQmx Task Name</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>SatTankTemp</Val>
-</Refnum>
 </Cluster>
 <Cluster>
 </Cluster>
 </Object>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
-<NumLevels>3</NumLevels>
-<Class>DAQmx AO.lvclass</Class>
-<Version>1.0.0.1</Version>
-<Version>1.0.0.5</Version>
+<NumLevels>2</NumLevels>
+<Class>Simulated HW.lvclass</Class>
+<Version>1.0.0.2</Version>
 <Version>1.0.0.3</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
@@ -71,24 +59,13 @@
 </EW>
 </Cluster>
 <Cluster>
-<Name>DAQmx.lvclass</Name>
-<NumElts>1</NumElts>
-<Refnum>
-<Name>DAQmx Task Name</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>SatValveCtl</Val>
-</Refnum>
-</Cluster>
-<Cluster>
 </Cluster>
 </Object>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
-<NumLevels>3</NumLevels>
-<Class>DAQmx DIO.lvclass</Class>
-<Version>1.0.0.1</Version>
-<Version>1.0.0.5</Version>
+<NumLevels>2</NumLevels>
+<Class>Simulated HW.lvclass</Class>
+<Version>1.0.0.2</Version>
 <Version>1.0.0.3</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
@@ -112,24 +89,13 @@
 </EW>
 </Cluster>
 <Cluster>
-<Name>DAQmx.lvclass</Name>
-<NumElts>1</NumElts>
-<Refnum>
-<Name>DAQmx Task Name</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>MotorOn_Off</Val>
-</Refnum>
-</Cluster>
-<Cluster>
 </Cluster>
 </Object>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
-<NumLevels>3</NumLevels>
-<Class>DAQmx DIO.lvclass</Class>
-<Version>1.0.0.1</Version>
-<Version>1.0.0.5</Version>
+<NumLevels>2</NumLevels>
+<Class>Simulated HW.lvclass</Class>
+<Version>1.0.0.2</Version>
 <Version>1.0.0.3</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
@@ -153,24 +119,13 @@
 </EW>
 </Cluster>
 <Cluster>
-<Name>DAQmx.lvclass</Name>
-<NumElts>1</NumElts>
-<Refnum>
-<Name>DAQmx Task Name</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>Limit Switches</Val>
-</Refnum>
-</Cluster>
-<Cluster>
 </Cluster>
 </Object>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
-<NumLevels>3</NumLevels>
-<Class>DAQmx AI.lvclass</Class>
-<Version>1.0.0.1</Version>
-<Version>1.0.0.5</Version>
+<NumLevels>2</NumLevels>
+<Class>Simulated HW.lvclass</Class>
+<Version>1.0.0.2</Version>
 <Version>1.0.0.3</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
@@ -194,24 +149,13 @@
 </EW>
 </Cluster>
 <Cluster>
-<Name>DAQmx.lvclass</Name>
-<NumElts>1</NumElts>
-<Refnum>
-<Name>DAQmx Task Name</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>IRTemp</Val>
-</Refnum>
-</Cluster>
-<Cluster>
 </Cluster>
 </Object>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
-<NumLevels>3</NumLevels>
-<Class>DAQmx DIO.lvclass</Class>
-<Version>1.0.0.1</Version>
-<Version>1.0.0.5</Version>
+<NumLevels>2</NumLevels>
+<Class>Simulated HW.lvclass</Class>
+<Version>1.0.0.2</Version>
 <Version>1.0.0.3</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
@@ -235,24 +179,13 @@
 </EW>
 </Cluster>
 <Cluster>
-<Name>DAQmx.lvclass</Name>
-<NumElts>1</NumElts>
-<Refnum>
-<Name>DAQmx Task Name</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>PneumAct</Val>
-</Refnum>
-</Cluster>
-<Cluster>
 </Cluster>
 </Object>
 <Object>
 <Name>Generic Hardware.lvclass</Name>
-<NumLevels>3</NumLevels>
-<Class>DAQmx AO.lvclass</Class>
-<Version>1.0.0.1</Version>
-<Version>1.0.0.5</Version>
+<NumLevels>2</NumLevels>
+<Class>Simulated HW.lvclass</Class>
+<Version>1.0.0.2</Version>
 <Version>1.0.0.3</Version>
 <Cluster>
 <Name>Generic Hardware.lvclass</Name>
@@ -274,16 +207,6 @@
 <Choice>Expansion Temperature Setpoint</Choice>
 <Val>6</Val>
 </EW>
-</Cluster>
-<Cluster>
-<Name>DAQmx.lvclass</Name>
-<NumElts>1</NumElts>
-<Refnum>
-<Name>DAQmx Task Name</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>ExpTempSet</Val>
-</Refnum>
 </Cluster>
 <Cluster>
 </Cluster>
@@ -491,11 +414,11 @@
 </I32>
 <I32>
 <Name></Name>
-<Val>-593020928</Val>
+<Val>-403324928</Val>
 </I32>
 <I32>
 <Name></Name>
-<Val>-677384187</Val>
+<Val>-677385028</Val>
 </I32>
 <I32>
 <Name></Name>
